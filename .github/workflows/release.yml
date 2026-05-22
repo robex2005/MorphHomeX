@@ -1,0 +1,37 @@
+name: Create Release
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'version.txt'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Read version
+        id: version
+        run: echo "VERSION=$(cat version.txt)" >> $GITHUB_OUTPUT
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ steps.version.outputs.VERSION }}
+          name: v${{ steps.version.outputs.VERSION }}
+          body: |
+            ## NeumorphixHome v${{ steps.version.outputs.VERSION }}
+
+            - Adaugat tema `neumorphix-dark-taupe` (dark warm cu accent cupru)
+            - Adaugat varianta `neumorphix-dark-taupe-inset`
+            - Redenumit `neumorphix-claude` → `neumorphix-dark-noir`
+            - Redenumit `neumorphix-claude-inset` → `neumorphix-dark-noir-inset`
+            - Compatibilitate completa HA 2025.5+
+          token: ${{ secrets.GITHUB_TOKEN }}
