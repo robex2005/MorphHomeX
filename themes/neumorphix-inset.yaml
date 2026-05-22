@@ -344,8 +344,181 @@ neumorphix-dark-inset:
         color: #191c22 !important;
       }
 
-neumorphix-claude-inset:
-  card-mod-theme: neumorphix-claude-inset
+neumorphix-dark-taupe-inset:
+  card-mod-theme: neumorphix-dark-taupe-inset
+  ha-card-background: "#231f1c"
+  primary-background-color: "#26211e"
+  secondary-background-color: "#201c19"
+  card-background-color: "#231f1c"
+  divider-color: "#3d3530"
+  neu-shadow-light: "#362f2b"
+  neu-shadow-dark: "#140f0d"
+  neu-shadow-raised: "inset 4px 4px 8px #110e0c, inset -4px -4px 8px #382f2c"
+  neu-shadow-inset: "inset 4px 4px 8px #110e0c, inset -4px -4px 8px #382f2c"
+  neu-shadow-flat: "2px 2px 4px #140f0d, -2px -2px 4px #362f2b"
+  primary-color: "#c8885a"
+  accent-color: "#c8885a"
+  neu-accent: "#c8885a"
+  neu-accent-glow: "#c8885a20"
+  neu-accent-inset: "inset 4px 4px 8px #a86d42, inset -4px -4px 8px #d8a073"
+  primary-text-color: "#e8ddd5"
+  secondary-text-color: "#a09080"
+  disabled-text-color: "#5a504a"
+  text-primary-color: "#e8ddd5"
+  label-badge-text-color: "#26211e"
+  ha-card-border-radius: "20px"
+  ha-card-border-width: "0px"
+  ha-card-border-color: "transparent"
+  neu-radius: "20px"
+  neu-radius-sm: "14px"
+  neu-radius-xs: "10px"
+  ha-card-box-shadow: "inset 4px 4px 8px #110e0c, inset -4px -4px 8px #382f2c"
+  app-header-background-color: "#26211e"
+  app-header-text-color: "#e8ddd5"
+  app-header-selection-bar-color: "#c8885a"
+  sidebar-background-color: "#201c19"
+  sidebar-text-color: "#e8ddd5"
+  sidebar-icon-color: "#a09080"
+  sidebar-selected-text-color: "#c8885a"
+  sidebar-selected-icon-color: "#c8885a"
+  switch-checked-color: "#c8885a"
+  switch-unchecked-button-color: "#362f2b"
+  switch-unchecked-track-color: "#201c19"
+  paper-slider-active-color: "#c8885a"
+  paper-slider-knob-color: "#c8885a"
+  paper-slider-secondary-color: "#c8885a50"
+  state-active-color: "#c8885a"
+  state-inactive-color: "#5a504a"
+  state-unavailable-color: "#362f2b"
+  mush-rgb-disabled: "90, 80, 74"
+  label-badge-background-color: "#c8885a"
+  paper-item-selected-color: "#c8885a"
+  table-row-alternative-background-color: "#282320"
+  paper-listbox-background-color: "#26211e"
+  paper-input-container-color: "#a09080"
+  paper-input-container-focus-color: "#c8885a"
+  input-fill-color: "#282320"
+  input-ink-color: "#e8ddd5"
+  input-label-ink-color: "#a09080"
+  input-dropdown-icon-color: "#a09080"
+  material-background-color: "#26211e"
+  material-secondary-background-color: "#201c19"
+  ha-card-header-color: "#e8ddd5"
+  settings-row-content-color: "#e8ddd5"
+  settings-row-secondary-color: "#a09080"
+  list-item-color: "#e8ddd5"
+
+  # --- HA 2025.5+ color tokens (added for compatibility) ---
+  ha-color-surface-default: "#2e2825"
+  ha-color-surface-low: "#26211e"
+  ha-color-surface-lower: "#201c19"
+  ha-color-surface-high: "#3a3430"
+  ha-color-surface-higher: "#463e3a"
+  ha-color-fill-primary-normal-resting: "#362f2b"
+  ha-color-form-background: "#26211e"
+  ha-color-form-background-hover: "#2e2825"
+  ha-color-form-background-disabled: "#201c19"
+  ha-color-fill-primary-normal-hover: "#3d3530"
+  ha-color-fill-primary-normal-active: "#3d3530"
+  ha-color-fill-primary-quiet-resting: "#26211e"
+  ha-color-fill-primary-loud-resting: "#c8885a"
+  ha-color-fill-neutral-normal-resting: "#362f2b"
+  ha-color-fill-neutral-normal-hover: "#3d3530"
+  ha-color-fill-neutral-quiet-resting: "#26211e"
+  ha-color-fill-disabled-normal-resting: "#26211e"
+  ha-color-on-fill-primary: "#e8ddd5"
+  ha-color-on-fill-neutral: "#e8ddd5"
+  ha-color-on-fill-loud: "#ffffff"
+  ha-color-border-neutral-quiet-resting: "#3d3530"
+  ha-color-border-neutral-normal-resting: "#3d3530"
+  ha-color-border-primary-normal-resting: "#c8885a"
+  ha-color-text-primary: "#e8ddd5"
+  ha-color-text-secondary: "#a09080"
+  ha-color-text-disabled: "#a09080"
+  ha-color-primary-40: "#c8885a"
+  ha-color-primary-30: "#c8885a"
+  ha-color-primary-50: "#c8885a"
+  rgb-primary-color: "200, 136, 90"
+  mdc-select-fill-color: "#26211e"
+  mdc-menu-surface-fill-color: "#2e2825"
+  md-sys-color-surface: "#231f1c"
+  md-sys-color-surface-container: "#26211e"
+  md-sys-color-surface-container-low: "#231f1c"
+  md-sys-color-surface-container-high: "#3a3430"
+  md-sys-color-surface-container-highest: "#463e3a"
+  md-sys-color-surface-bright: "#3a3430"
+  md-sys-color-surface-dim: "#201c19"
+  md-sys-color-on-surface: "#e8ddd5"
+  md-sys-color-on-surface-variant: "#a09080"
+  md-sys-color-primary: "#c8885a"
+  md-sys-color-on-primary: "#ffffff"
+  md-sys-color-outline: "#3d3530"
+  md-sys-color-outline-variant: "#3d3530"
+  # --- Web Awesome (wa-*) tokens for ha-input / wa-input ---
+  wa-form-control-background-color: "#26211e"
+  wa-form-control-border-color: "#3d3530"
+  wa-form-control-border-color-hover: "#c8885a"
+  wa-form-control-border-color-focus: "#c8885a"
+  wa-form-control-value-color: "#e8ddd5"
+  wa-form-control-label-color: "#e8ddd5"
+  wa-form-control-placeholder-color: "#a09080"
+  wa-form-control-hint-color: "#a09080"
+  wa-color-surface-default: "#231f1c"
+  wa-color-surface-raised: "#231f1c"
+  wa-color-surface-lowered: "#201c19"
+  wa-color-surface-border: "#3d3530"
+  wa-color-text-normal: "#e8ddd5"
+  wa-color-text-quiet: "#a09080"
+  wa-color-neutral-fill-quiet: "#26211e"
+  wa-color-neutral-fill-normal: "#26211e"
+  wa-color-neutral-on-quiet: "#e8ddd5"
+  wa-color-neutral-on-normal: "#e8ddd5"
+  wa-color-brand-fill-loud: "#c8885a"
+  wa-color-brand-on-loud: "#ffffff"
+  wa-color-focus: "#c8885a"
+
+  card-mod-root-yaml: |
+    .: |
+      ha-card[outlined] {
+        --ha-card-border-color: #3d3530 !important;
+        --ha-card-border-width: 1px !important;
+      }
+      /* HA 2025.x picker/textfield/select fix */
+      ha-picker-field,
+      ha-combo-box,
+      ha-combo-box-item,
+      ha-dropdown-item,
+      ha-textfield,
+      ha-select,
+      ha-md-select,
+      ha-md-textfield {
+        --mdc-text-field-fill-color: #26211e !important;
+        --mdc-text-field-disabled-fill-color: #26211e !important;
+        --mdc-select-fill-color: #26211e !important;
+        --mdc-select-disabled-fill-color: #26211e !important;
+        --mdc-text-field-ink-color: #e8ddd5 !important;
+        --mdc-select-ink-color: #e8ddd5 !important;
+        --md-filled-field-container-color: #26211e !important;
+        --md-filled-text-field-container-color: #26211e !important;
+        --md-outlined-text-field-container-color: #26211e !important;
+        --md-filled-select-text-field-container-color: #26211e !important;
+        --ha-color-fill-neutral-quiet-resting: #26211e !important;
+        --ha-color-fill-neutral-normal-resting: #26211e !important;
+        background-color: #26211e !important;
+        color: #e8ddd5 !important;
+      }
+      ha-picker-field {
+        border-radius: 14px !important;
+      }
+  card-mod-sidebar-yaml: |
+    .: |
+      .badge {
+        background-color: #c8885a !important;
+        color: #26211e !important;
+      }
+
+neumorphix-dark-noir-inset:
+  card-mod-theme: neumorphix-dark-noir-inset
   ha-card-background: "#e5e0db"
   primary-background-color: "#ede8e3"
   secondary-background-color: "#e4ddd7"
