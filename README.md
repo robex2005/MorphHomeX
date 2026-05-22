@@ -29,7 +29,7 @@ NeuMorphix ships with **6 theme variants** across two styles:
 1. Open HACS in your Home Assistant instance.
 2. Go to **Frontend** (the three-dot menu in the top right).
 3. Select **Custom repositories**.
-4. Add the URL of this repository and choose **Theme** as the category.
+4. Add the URL of this repository ( https://github.com/robex2005/NeumorphixHome ) and choose **Theme** as the category.
 5. Search for **NeuMorphix** in HACS and install it.
 6. Restart Home Assistant.
 
