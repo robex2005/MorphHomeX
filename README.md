@@ -1,6 +1,6 @@
 # MorphHomeX
 
-A neumorphic theme for [Home Assistant](https://www.home-assistant.io/) that brings soft shadows, rounded surfaces, and a tactile 3D feel to your dashboards.
+A morph theme for [Home Assistant](https://www.home-assistant.io/) that brings soft shadows, rounded surfaces, and a tactile 3D feel to your dashboards.
 
 MorphHomeX ships with **10 theme variants** across two styles:
 
@@ -29,14 +29,14 @@ MorphHomeX ships with **10 theme variants** across two styles:
 1. Open HACS in your Home Assistant instance.
 2. Go to **Frontend** (the three-dot menu in the top right).
 3. Select **Custom repositories**.
-4. Add the URL of this repository ( https://github.com/robex2005/NeumorphixHome ) and choose **Theme** as the category.
+4. Add the URL of this repository (https://github.com/robex2005/MorphHomeX) and choose **Theme** as the category.
 5. Search for **MorphHomeX** in HACS and install it.
 6. Restart Home Assistant.
 
 ### Manual
 
 1. Download the `themes/` folder from this repository.
-2. Copy `morphhomex.yaml`, `morphhomex-inset.yaml` and `morphhomex-ash.yaml` into your Home Assistant `config/themes/` directory.
+2. Copy `morphhomex.yaml`, `morphhomex-inset.yaml` into your Home Assistant `config/themes/` directory.
 3. Restart Home Assistant.
 
 ## Configuration
