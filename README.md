@@ -16,11 +16,10 @@ A neumorphic theme for [Home Assistant](https://www.home-assistant.io/) that bri
 
 MorphHomeX ships with **10 theme variants** across two styles:
 
-| Style | Light | Dark | Dark Taupe | Dark Graphite | Dark Ash |
-|-------|-------|------|------------|---------------|----------|
-| **Raised** | `morphhomex-light` | `morphhomex-dark` | `morphhomex-dark-taupe` | `morphhomex-dark-graphite` | `morphhomex-dark-ash` |
-| **Inset** | `morphhomex-light-inset` | `morphhomex-dark-inset` | `morphhomex-dark-taupe-inset` | `morphhomex-dark-graphite-inset` | `morphhomex-dark-ash-inset` |
-
+| Style | Light | Dark | 
+|-------|-------|------|
+| **Raised** | `morphhomex-light` | `morphhomex-dark` (and variants) | 
+| **Inset** | `morphhomex-light-inset` | `morphhomex-dark-inset` (and variants) | 
 - **Raised** variants give cards and elements a soft, extruded look — the classic neumorphic style.
 - **Inset** variants flip the effect so elements appear pressed into the surface.
 
