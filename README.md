@@ -16,12 +16,13 @@ A morph theme for [Home Assistant](https://www.home-assistant.io/) that brings s
 
 ## Theme variants
 
-MorphHomeX ships with **10 theme variants** across two styles:
+MorphHomeX ships with **12 theme variants** across two styles:
 
-| Style | Light | Dark | 
-|-------|-------|------|
-| **Raised** | `morphhomex-light` | `morphhomex-dark` (and variants) | 
-| **Inset** | `morphhomex-light-inset` | `morphhomex-dark-inset` (and variants) | 
+| Style | Light | Dark variants |
+|-------|-------|--------------|
+| **Raised** | `morphhomex-light` | `morphhomex-dark`, `dark-taupe`, `dark-graphite`, `dark-ash`, `dark-onyx` |
+| **Inset** | `morphhomex-light-inset` | `morphhomex-dark-inset`, `dark-taupe-inset`, `dark-graphite-inset`, `dark-ash-inset`, `dark-onyx-inset` |
+
 - **Raised** variants give cards and elements a soft, extruded look — the classic neumorphic style.
 - **Inset** variants flip the effect so elements appear pressed into the surface.
 
@@ -73,6 +74,7 @@ After restarting, go to **Settings → General** and pick a MorphHomeX variant f
 - `morphhomex-dark-taupe` — warm dark raised (bg #26211e, accent copper)
 - `morphhomex-dark-graphite` — deep dark raised (bg #121212, accent blue)
 - `morphhomex-dark-ash` — medium dark raised (bg #1e1e1e, accent blue)
+- `morphhomex-dark-onyx` — near-black raised (bg #0d0d0d, accent orange)
 
 ### Inset (recessed elements)
 - `morphhomex-light-inset` — light inset neumorphic
@@ -80,6 +82,7 @@ After restarting, go to **Settings → General** and pick a MorphHomeX variant f
 - `morphhomex-dark-taupe-inset` — warm dark inset
 - `morphhomex-dark-graphite-inset` — deep dark inset
 - `morphhomex-dark-ash-inset` — medium dark inset
+- `morphhomex-dark-onyx-inset` — near-black inset
 
 ## License
 
