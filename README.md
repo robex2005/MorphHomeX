@@ -40,12 +40,16 @@ MorphHomeX ships with **12 theme variants** across two styles:
 
 ### HACS (recommended)
 
-1. Open HACS in your Home Assistant instance.
-2. Go to **Frontend** (the three-dot menu in the top right).
-3. Select **Custom repositories**.
-4. Add the URL of this repository ( https://github.com/robex2005/MorphHomeX ) and choose **Theme** as the category.
-5. Search for **MorphHomeX** in HACS and install it.
-6. Restart Home Assistant.
+MorphHomeX is available in the **default HACS store** — no custom repository needed.
+
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=robex2005&repository=MorphHomeX&category=theme)
+
+1. Open **HACS** in your Home Assistant instance.
+2. Search for **MorphHomeX**.
+3. Open it and click **Download**.
+4. Restart Home Assistant.
+
+> Tip: click the button above to jump straight to the MorphHomeX page in your own Home Assistant.
 
 ### Manual
 
